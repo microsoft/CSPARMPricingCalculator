@@ -21,21 +21,14 @@ The following are the prerequisites for using the CSP ARM Pricing Calculator:
 *       An account that has Admin Agent privileges in the CSP account.
 *       An account that has Global Admin privileges will be needed during setup and configure of the Azure AD Application
 
+## Deployment
+Please refer to the [deployment](https://github.com/Microsoft/CSPARMPricingCalculator/blob/master/Documentation/deployment.md) guide
+
 ## Limitations
 It has been built as a sample and currently supports Virtual machine and its components including compute hours, storage, network, public ip and software costs. The source code is provided to enable the CSP Partners to understand the steps and logic involved and may choose to build their own.
 It does not support advanced scenarios of ARM templates like nested templates, copy index, etc.
 It shows the estimates based on CSP Partner Pricing and does not include pricing of hosting any 3rd party services or margins of the CSP Partner/reseller. 
-The tool and source code is provided as a sample and no support is provided.
-
-## Alternatives
-1. [CSP Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/channel/)
-  
-  The CSP Pricing calculator is available for CSP Partners on the Partner Center Portal. This can be used for estimating the cost of hosting Azure services in CSP subscriptions.
-  However, currently, this cannot be customized and currently only available for CSP Partner users only.  
-
-2. [Public Azure Pricing Calculator](https://azure.microsoft.com/en-in/pricing/calculator/)
-  
-  The azure pricing calculator is available publicly. However, this shows the prices as per Pay-As-You-Go Subscriptions purchased from Microsoft direct and does not show CSP pricing. Currently, this cannot be customized.  
+The tool and source code is provided as a sample and no support is provided. 
 
 ## Contributions
 
