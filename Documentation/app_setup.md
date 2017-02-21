@@ -12,7 +12,7 @@ An Azure AD Application authentication can be App only or App + User. This docum
 *	A computer with Azure Active Directory PowerShell v2 module installed.
 
 ##3.	Add an Azure AD Native Application
-  1.	Navigate to the ![Azure Management Portal](https://manage.windowsazure.com). Login with user having permissions to create an Azure AD Application.
+  1.	Navigate to the [Azure Management Portal](https://manage.windowsazure.com). Login with user having permissions to create an Azure AD Application.
 
   2.  Click on ACTIVE DIRECTORY from the menu. Click on the directory from the displayed list.
   ![ad_portal](/Documentation/images/app_setup/image1.png)
