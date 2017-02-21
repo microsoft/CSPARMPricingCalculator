@@ -48,7 +48,7 @@ An Azure AD Application authentication can be App only or App + User. This docum
   1.  On a computer having Azure Active Directory PowerShell v2 module installed, Open a new PowerShell session.
   
   2.  Type the following cmdlet to initiate login: **Connect-AzureAD**
-  ![connect-ad](/Documentation/images/app_setup/image11.png)
+  ![connect-ad](/Documentation/images/app_setup/image11.jpg)
   
   3.  Login with the user credentials having permissions to obtain information of the created application and also having permissions to add members to Admin Agent groups.
   ![connect-ad](/Documentation/images/app_setup/image12.png)
@@ -64,7 +64,7 @@ An Azure AD Application authentication can be App only or App + User. This docum
   
   6. Run the following cmdlet to configure the pre-consent.
   **d-AzureADGroupMember -ObjectId “ObjectId of the AdminAgents Group here” -RefObjectId “ObjectId of the ServicePrincipal”**
-  ![connect-adGroupMember](/Documentation/images/app_setup/image15png)
+  ![connect-adGroupMember](/Documentation/images/app_setup/image15.png)
   
 ##5.  Conclusion
    The application created using the previous steps has been configured for pre-consent and can be used for accessing ARM APIs of the CSP Azure subscriptions of the CSP Partner.
