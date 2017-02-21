@@ -64,10 +64,11 @@ An Azure AD Application authentication can be App only or App + User. This docum
   *Copy the ObjectId for the AdminAgents group. This will be used in the subsequent steps.*
     
   5.  Type the following cmdlet to view the ServicePrincipal for the application created earlier.
-  Get-AzureADServicePrincipal -SearchString “Name of the Azure AD Application here**
   ```powershell
-  ![connect-adprincipal](/Documentation/images/app_setup/image14.png)
+  Get-AzureADServicePrincipal -SearchString "Name of the Azure AD Application here"
   ```
+  ![connect-adprincipal](/Documentation/images/app_setup/image14.png)
+  
   *Copy the ObjectId for the Serviceprincipal. This will be used in the subsequent step.*
   
   6. Run the following cmdlet to configure the pre-consent.
