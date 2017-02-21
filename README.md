@@ -1,7 +1,7 @@
 # CSP – ARM Pricing Calculator 
 ## Introduction
 
-The tool can be used to estimate the cost of hosting a solution in an Azure CSP subscription. It takes the ARM Template as an input and gives the estimated costs as an output. It has been built as a sample and currently supports Virtual machine and its components including Compute hours, Storage, Network, Public IP and Software costs. 
+The tool can be used to estimate the cost of hosting a solution in an Azure CSP subscription. It takes the ARM Template as an input and gives the estimated costs as an output. It has been built as a sample and currently estimates Virtual machine and its components including Compute hours, Storage, Network, Public IP and Software costs. 
 
 The tool does the following:
 
