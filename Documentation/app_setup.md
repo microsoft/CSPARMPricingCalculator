@@ -73,7 +73,7 @@ An Azure AD Application authentication can be App only or App + User. This docum
   
   6. Run the following cmdlet to configure the pre-consent.
   ```powershell
-  Add-AzureADGroupMember -ObjectId “ObjectId of the AdminAgents Group here” -RefObjectId “ObjectId of the ServicePrincipal”
+  Add-AzureADGroupMember -ObjectId "ObjectId of the AdminAgents Group here" -RefObjectId "ObjectId of the ServicePrincipal"
   ```
   
   ![connect-adGroupMember](/Documentation/images/app_setup/image15.png)
