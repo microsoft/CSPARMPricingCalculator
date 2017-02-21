@@ -1,4 +1,4 @@
-#Deployment Steps
+#App Setup Steps
 
 
 ##1. Introduction
